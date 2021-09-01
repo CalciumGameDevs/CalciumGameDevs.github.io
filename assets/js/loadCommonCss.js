@@ -10,5 +10,3 @@ function LoadCss(cssPath) {
 }
 
 LoadCss("/assets/css/navbar.css");
-loadjs("https://3EGaming.github.io/files/js/cookie.js");
-loadjs("https://3EGaming.github.io/files/js/urlvar.js");
