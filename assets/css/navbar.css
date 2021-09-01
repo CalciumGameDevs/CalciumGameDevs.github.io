@@ -22,11 +22,7 @@
     background-color: rgb(70, 70, 70);
   }
 
-  a {
-    display: block;
-    padding: 8px;
-    background-color: #dddddd;
-  }
+  
 
   .active {
     background-color: #04AA6D;
