@@ -9,4 +9,15 @@ function LoadCss(cssPath) {
     head.appendChild(thisCss); 
 }
 
+function LoadJs(jsPath) {
+    var thisJs = document.createElement('script');
+    thisJs.language = 'JavaScript';
+    thisJs.type = 'text/javascript';
+    thisJs.src = jsPath; 
+
+    head.appendChild(thisJs); 
+}
+
 LoadCss("/assets/css/navbar.css");
+LoadJs("https://3EGaming.github.io/files/js/cookie.js");
+LoadJs("https://3EGaming.github.io/files/js/urlvar.js");
