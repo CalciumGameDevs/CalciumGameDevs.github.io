@@ -9,7 +9,7 @@ function LoadCss(cssPath) {
     head.appendChild(thisCss); 
 }
 
-LoadCss("/assets/js/navbar.css");
+LoadCss("/assets/css/navbar.css");
 
 var navBar = document.getElementById("nb");
 
