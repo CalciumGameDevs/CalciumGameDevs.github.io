@@ -1,9 +1,18 @@
 .profilesdiv {
     height: 80%;
+    background: rgba(0, 0, 0, 0);
 }
 
 .frame {
     border-radius: 10px;
     width: 49%;
     height: 100%;
+}
+
+.bgcolour {
+    background-color: black;
+}
+
+.profiletext {
+    color: white;
 }

@@ -9,4 +9,7 @@ function LoadCss(cssPath) {
     head.appendChild(thisCss); 
 }
 
-LoadCss("/assets/css/navbar.css");
+if (urlVariables["nonavbar"] == undefined) {
+    LoadCss("/assets/css/navbar.css");
+    LoadCss("/assets/css/background.css");
+}
