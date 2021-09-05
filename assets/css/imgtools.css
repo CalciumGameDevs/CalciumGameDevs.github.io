@@ -1,0 +1,14 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profileimage {
+    height: auto;
+    width: 25%;
+}
+
+.circlemask {
+    clip-path: circle(50% at center);
+}
