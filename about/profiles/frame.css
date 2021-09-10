@@ -5,7 +5,7 @@
 
 .frame {
     border-radius: 10px;
-    width: 49%;
+    width: calc(50% - 10px);
     height: 100%;
 }
 
