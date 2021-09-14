@@ -16,3 +16,7 @@
 .profiletext {
     color: white;
 }
+
+.roletext {
+    text-decoration: underline; font-size: larger;
+}
