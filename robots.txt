@@ -1,0 +1,5 @@
+# robots.txt for Calcium Games Website
+
+User-agent: *
+
+Sitemap: https://CalciumGameDevs.github.io/assets/sitemaps/main.xml
